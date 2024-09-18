@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+nav{
+    padding:30px 0;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_btn{
+    padding: 14px 35px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    background: #145E76;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.nav_p{
+    font-weight: 600;
+font-size: 18px;
+color: #A1B5BB;
+cursor: pointer;
+}
+
+.nav_p:hover{
+    border-bottom: 1px solid #A1B5BB;
+}   
+
+
+body{
+    background: #052a34;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_left {
+    margin-top: 150px;
+}
+
+.header_left h2 {
+max-width: 537px;
+width: 100%;
+font-family: 'Inter', sans-serif;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+color: #FFFFFF;
+}
+
+.header_left p {
+    max-width: 511px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+color: #849499;
+margin-bottom: 50px;
+margin-top: 30px;
+}
+
+
+.h_img {
+    margin-bottom: 40px;
+    width: 195px;
+    height: 65px;
+}
+
+.btn {
+    padding: 16px 35px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    background: #FFA63A;
+    border: none;
+    outline: none;
+}
+
+.S_btn {
+    padding: 16px 35px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #B6CDD4;
+    border-radius: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h_mini{
+    width: 300px;
+    padding: 20px 28px;
+    border: 3px solid white;
+    border-radius: 20px;
+
+    p{
+        width: 244px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.4px;
+        color: #FFFFFF;
+    }
+   
+}
+
+.header_right{
+    position: relative;
+}
+
+.h_mini{
+    content: '';
+    position: absolute;
+    top: 273px;
+    right: -60px;     
+    background: transparent;  
+    backdrop-filter: blur(5px);
+}
+
+
+
+.h_mini_profile{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#mini_p{
+    font-size: 12px;
+    color: #A1B5BB;
+}
+
+#h_mini{
+    font-weight: 500;
+    color: #FFFFFF;
+}
