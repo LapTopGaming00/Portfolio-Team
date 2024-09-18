@@ -178,7 +178,7 @@ margin-top: 30px;
 
 .service {
 background: #FFFFFF;
-padding-top: 200px;
+padding-top: 360px;
 }
 
 .service_p {
@@ -255,4 +255,110 @@ p{
         padding: 10px;
         border-radius: 20px;
     }
+}
+
+
+main{
+    position: relative;
+}
+
+
+.stat{
+    content: '';
+    position: absolute;
+    top: 860px;
+    right: 400px;
+    width: 1170px;
+padding: 78px 218px;
+background: white;
+border-radius: 25px;
+}
+
+
+.stat_list{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+    h2{
+        font-weight: 600;
+        font-size: 48px;
+        color: #08546C;
+    }
+
+    p{
+        font-size: 18px;
+        color: #08546C;
+        margin-top: 29px;
+    }
+}
+
+.stat_h{
+    font-weight: 600;
+    font-size: 24px;
+    color: #265A6A;
+}
+
+
+
+
+.portfolio {
+    background: #FFFFFF;
+}
+
+.portfolio_h {
+    width: 510px;
+font-size: 45px;
+font-weight: 600;
+line-height: 60px;
+color: #08546C;
+text-align: left;
+}
+
+.portfolio_p {
+    width: 569px;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+color: #757575;
+text-align: left;
+margin-top: 10px;
+}
+
+
+.portfolio_card{
+
+    
+    display: inline-block;
+    margin-top: 60px;
+    width: 515px;
+
+    h2{
+        margin-top: 40px;    
+        font-weight: 600;
+        font-size: 30px;
+        color: #08546C;   
+    }
+
+    p{
+        margin-top: 10px;
+        width: 426px;
+        color: #757575;
+    }
+}
+
+
+.port_end{
+    display: flex;
+    align-items: center;
+}
+
+.cards_port{
+    display: flex;
+    gap: 440px;
+}
+
+.portfolio{
+    padding-bottom: 200px;
 }
